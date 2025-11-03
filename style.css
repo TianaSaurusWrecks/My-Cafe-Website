@@ -38,7 +38,7 @@ nav {
 .logo img {
   display: flex;
   height: 55px;
-  width: auto;
+  min-width: 55px;
   max-width: 100%;
   border: 2px solid #5e4b45;
   margin-top: 4px;
