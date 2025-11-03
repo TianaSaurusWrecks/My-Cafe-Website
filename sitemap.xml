@@ -2,17 +2,16 @@
 <urlset
     xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
 
-    <!-- Homepage -->
     <url>
         <loc>https://tianasauruswrecks.github.io/My-Cafe-Website/</loc>
     </url>
 
-    <!-- Menu Page -->
+   
     <url>
         <loc>https://tianasauruswrecks.github.io/My-Cafe-Website/menu.html</loc>
     </url>
 
-    <!-- Contact Page -->
+   
     <url>
         <loc>https://tianasauruswrecks.github.io/My-Cafe-Website/contact.html</loc>
     </url>
