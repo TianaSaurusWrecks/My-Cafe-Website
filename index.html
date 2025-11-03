@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kramer's Cafe Latte</title>
+    <script src="https://kit.fontawesome.com/0092400297.js" crossorigin="anonymous"></script>
+   
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="brand-container">
+                <div class="logo">
+                    <img src="Images/logo-lucila-naves-unsplash.png" alt="Business Logo - Coffee Cup">
+                </div>
+                <div class="brand-name">KRAMER'S CAFE LATTE</div>
+            </div>
+        
+        <!--Hamburger Button for mobile device responsiveness-->
+        <div class="menu-toggle" id="mobile-menu">
+            <i class="fas fa-bars"></i>
+        </div>
+
+            <div class="nav-links-container">
+                <ul>
+
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+
+                    <li><button class="nav-btn">Make a Booking</button></li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+
+    <!--Hero Section-->
+    <section class="hero">
+        <div class="hero-overlay">
+            <h1>Coffee for Life!</h1>
+            <button class="hero-btn">Make a Booking</button>
+        </div>
+        <img src="Images/hero-samuel-regan-unsplash.jpg" alt="Coffee machines inside a cafe" class="hero-img">
+    </section>
+
+    <!-- Information Cards section-->
+     <section class="infocards-section">
+        <div class="container">
+            <h2>About Kramer's Cafe Latte</h2>
+            <p class="subheading">It would be outrageous, egregious, and preposterous not to try us!</p>
+
+            <div class="cards-container">
+
+                <div class="feature-card">
+                    <img src="Images/carousel-celine-unsplash.jpg" alt="cafe entrance">
+                    <h3>Warm & Welcoming</h3>
+                    <p> Cosy Atmoshphere & Friendly Service</p>
+                    <p> Blah blah blah</p>
+                </div>
+                <div class="feature-card">
+                    <img src="Images/coffeecupfahmi-fakhrudin-unsplash.jpg" alt="cup of coffee">
+                    <h3>Excellent Coffee</h3>
+                    <p> Blah blah blah</p>
+                    <p> Blah blah blah</p>
+                </div>
+                <div class="feature-card">
+                    <img src="Images/donutgerson-cifuentes-iunsplash.jpg" alt="donut on plate">
+                    <h3>Delicious Treats</h3>
+                    <p> Blah blah blah</p>
+                    <p> Blah blah blah</p>
+                </div>
+                <div class="feature-card">
+                    <img src="Images/saladjanesca-Hunsplash.jpg" alt="salad">
+                    <h3>Light Meals</h3>
+                    <p> Blah blah blah</p>
+                    <p> Blah blah blah</p>
+                </div>
+                  
+
+            </div>
+        </div>
+     </section>
+
+
+
+    <!-- pictures carousel section-->
+    <section class="carousel-section">
+        <div class="carousel-card">
+        <div class="carousel">
+            <div class="carousel-slide active">
+                <img src="Images/carousel-beans-pariwat-pannium-unsplash.jpg" alt="coffee beans">
+                <div class="carousel-text">
+                    <h2>The Best Beans</h2>
+                    <p>Our coffee beans are freshly roasted</p>
+                </div>
+            </div>
+            <div class="carousel-slide">
+                <img src="Images/carouselcoffeenathan-dumlao-gOn7dKcCWKg-unsplash.jpg" alt="coffee in mugs">
+                <div class="carousel-text">
+                    <h2>Delicious Coffee</h2>
+                    <p>The best coffee in Moorabbin</p>
+                </div>
+            </div>
+            
+
+            <!-- Navigation Buttons -->
+             <button class="prev">&#10094;</button>
+             <button class="next">&#10095;</button>
+        </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+     <!-- Footer  -->
+    <footer class="footer">
+        <div class="brand-container"> <!--reuses this class from earlier navbar code, reuses same css styling, saves time-->
+            <div class="logo">
+                <img src="Images/logo-lucila-naves-unsplash.png" alt="Business Logo - Coffee Cup">
+            </div>
+            <div class="brand-name">KRAMER'S CAFE LATTE</div>
+        </div>
+        <div class="copyright">
+        <p>Designed and Developed by Tiana Wilson &#xA9; 2025</p> 
+      </div>
+
+        <div class="social-icons-container"> <!--using font-awesome-->
+            <ul>
+                <li><a href="https://x.com" target="_blank" aria-label="X (Twitter)"><i class="fab fa-x-twitter"></i></a></li>
+                <li><a href="https://instagram.com" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://youtube.com" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a></li>
+                <li><a href="https://facebook.com" target="_blank" aria-label="FaceBook"><i class="fab fa-facebook"></i></a></li>
+            </ul>
+        </div>
+
+
+    </footer>
+
+ <script>
+    const menu = document.getElementById('mobile-menu');
+    const navLinks = document.querySelector('.nav-links-container');
+
+    menu.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+
+  </script>
+ <script src="script.js"></script>
+</body>
+</html>

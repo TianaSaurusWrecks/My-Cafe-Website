@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kramer's Cafe Latte</title>
+    <script src="https://kit.fontawesome.com/0092400297.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+        <header>
+        <nav>
+            <div class="brand-container">
+                <div class="logo">
+                    <img src="Images/logo-lucila-naves-unsplash.png" alt="Business Logo - Coffee Cup">
+                </div>
+                <div class="brand-name">KRAMER'S CAFE LATTE</div>
+            </div>
+        
+        <!--Hamburger Button for mobile device responsiveness-->
+        <div class="menu-toggle" id="mobile-menu">
+            <i class="fas fa-bars"></i>
+        </div>
+
+            <div class="nav-links-container">
+                <ul>
+
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+
+                    <li><button class="nav-btn">Make a Booking</button></li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+
+    <!-- Contact Details & Opening Hours-->
+    <section class="contact-banner1">
+    <img src="Images/contactqingyu-unsplash.jpg" alt="cupcakes">
+    </section>
+
+    <section class="contact-details">
+    <h3>KRAMER'S CAFE LATTE</h3>
+    <p>123 Coffee Lane, Moorabbin, Melbourne, Victoria 3189</p>
+    <p>PH: 0987 8765</p>
+    <p>kramerscafelatte@gmail.com</p>
+    </section>
+    
+    <section class="opening-hours">
+    <h3>OPENING HOURS</h3>
+    <p>Monday - Thursday 6.00 am - 4.00 pm</p>
+    <p>Friday - Sunday 6.00 am - 7.00 pm</p>
+    
+    </section>
+    
+    <!-- Contact Form -->
+    <section class="contact-form-section">
+    <h4>Contact Us</h4>
+    <form class="contact-form">
+        <input type="text" placeholder="Name" required />
+        <input type="email" placeholder="Email" required />
+        <textarea placeholder="Message" rows="5" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+    </section>
+
+
+    <!-- Map Section-->
+    <section class="map-section">
+        <h3>Find us Here</h3>
+        <div class="map-container">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7483.631158753308!2d145.05282044906366!3d-37.94259302949176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad66c068d18ee03%3A0x5045675218cde30!2sMoorabbin%20VIC%203189!5e0!3m2!1sen!2sau!4v1761475257694!5m2!1sen!2sau" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"
+        </div>
+    </section>
+
+
+
+
+
+
+     <!-- Footer  -->
+    <footer class="footer">
+        <div class="brand-container"> <!--reuses this class from earlier navbar code, reuses same css styling, saves time-->
+            <div class="logo">
+                <img src="Images/logo-lucila-naves-unsplash.png" alt="Business Logo - Coffee Cup">
+            </div>
+            <div class="brand-name">KRAMER'S CAFE LATTE</div>
+        </div>
+        <div class="copyright">
+        <p>Designed and Developed by Tiana Wilson &#xA9; 2025</p> 
+      </div>
+
+        <div class="social-icons-container"> <!--using font-awesome-->
+            <ul>
+                <li><a href="https://x.com" target="_blank" aria-label="X (Twitter)"><i class="fab fa-x-twitter"></i></a></li>
+                <li><a href="https://instagram.com" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://youtube.com" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a></li>
+                <li><a href="https://facebook.com" target="_blank" aria-label="FaceBook"><i class="fab fa-facebook"></i></a></li>
+            </ul>
+        </div>
+
+
+    </footer>
+
+ <script>
+    const menu = document.getElementById('mobile-menu');
+    const navLinks = document.querySelector('.nav-links-container');
+
+    menu.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+
+  </script>    
+
+</body>
+</html>
