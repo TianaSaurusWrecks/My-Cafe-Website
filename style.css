@@ -610,6 +610,16 @@ nav ul li a:hover {
   color: #333;
   font-size: 32px;
 }
+
+.bold-underline {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.spaced {
+  margin-bottom: 20px;
+}
+
 .menu-details p {
   margin: 5px 0;
   font-size: 16px;
@@ -651,8 +661,8 @@ nav ul li a:hover {
 }
 
 .subheading {
-  margin-bottom: 10px;
+  margin-bottom: 2px;
   color: #444;
   font-size: 16px;
-  line-height: 2;
+  line-height: 1;
 }
